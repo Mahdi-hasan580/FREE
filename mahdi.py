@@ -28,8 +28,8 @@ birth = ['001', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'
 bd = random.randint(2e7, 3e7)
 sim = random.randint(2e4, 4e4)
 header = {'x-fb-connection-bandwidth': repr(bd), 'x-fb-sim-hni': repr(sim), 'x-fb-net-hni': repr(sim),'x-fb-connection-quality': 'EXCELLENT', 'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.3','x-fb-connection-type': 'unknown','content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
-logo = """33[93m███╗   ███╗ █████╗██╗  ██╗██████╗ ██╗     \n\033[91m███╗ ████║██╔══██╗██║  ██║██╔══██╗██║    \n\033[1;32m██╔████╔██║███████║███████║██║  ██║██║   \n\33[97m██║╚██╔╝██║██╔══██║██╔══██║██║  ██║██║    \n\033[96m██║ ╚═╝ ██║██║  ██║██║  ██║██████╔╝██║    \n\033[0;35m╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝\033[0m\n \033[0m================================================================\n\33[93mAUTHOR :\033[91m[MAHDI HASAN] SHUVO\n\033[0;33mGITHUB : \033[1;97mhttps://github.com/MAHDI-Shuvo\nLIVE in Sylhet (Read in class 10)\n\033[42mNo NEED GF \033[0;31mIF YOU LOVE ME I LOVE YOU IF U HAT ME I FUCK YOU\n ===============================================================
-\033[1;91m-----------------------------------------------------
+logo = '33[93m███╗   ███╗ █████╗██╗  ██╗██████╗ ██╗     \n\033[91m███╗ ████║██╔══██╗██║  ██║██╔══██╗██║    \n\033[1;32m██╔████╔██║███████║███████║██║  ██║██║   \n\33[97m██║╚██╔╝██║██╔══██║██╔══██║██║  ██║██║    \n\033[96m██║ ╚═╝ ██║██║  ██║██║  ██║██████╔╝██║    \n\033[0;35m╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝\033[0m\n \033[0m================================================================\n\33[93mAUTHOR :\033[91m[MAHDI HASAN] SHUVO\n\033[0;33mGITHUB : \033[1;97mhttps://github.com/MAHDI-Shuvo\nLIVE in Sylhet (Read in class 10)\n\033[42mNo NEED GF \033[0;31mIF YOU LOVE ME I LOVE YOU IF U HAT ME I FUCK YOU\n ==============================================================='
+print("""\033[1;91m-----------------------------------------------------
  \033[1;91m(*)\033[1;95m Developer: ◠◡♥♥  MAHDI HASAN   ♥♥◡◠
  \033[1;92m(*)\033[1;94m Facebook : ◠◡♥♥ MAHDI HASAN (SHUVO) ♥♥◡◠
  \033[1;93m(*)\033[1;93m Github   : ◠◡♥♥  MAHDI-Shuvo   ♥♥◡◠
@@ -37,7 +37,7 @@ logo = """33[93m███╗   ███╗ █████╗██╗  ██�
  \033[1;94m(*)\033[1;92m
  \033[1;95m(*)\033[1;91m  ✯ 🅐︎🅡︎🅐︎🅓︎🅘︎🅝︎ Ⓚ︎Ⓘ︎Ⓝ︎Ⓖ︎ 🅑︎🅞︎🅛︎🅣︎🅔︎ Ⓟ︎Ⓤ︎Ⓑ︎Ⓛ︎Ⓘ︎Ⓒ︎ ✯
 \033[1;91m-----------------------------------------------------
-"""
+""")
 def main_apv():
     imt=" -mahdi"
     os.system('clear')
@@ -113,7 +113,7 @@ pil = input("\033[1;97m[\033[1;94m?\033[1;97m] CHOOSE: ")
 
 if pil in ["01", "1"]:
 
-    os.system('cd paidfree4')
+    os.system('git clone https://github.com/Shuvo-BBHH/paidfree4 && cd paidfree4')
     os.system('python2 mahdi9.py')
     print(" ")
     n = input("[ \n\033[1;94mBACK \n\033[1;97m]")
@@ -121,7 +121,7 @@ if pil in ["01", "1"]:
     main()
 
 elif pil in ["02", "2"]:
-    os.system('cd paidfree4')
+    os.system('git clone https://github.com/Shuvo-BBHH/paidfree4 && cd paidfree4')
     os.system('python 20091st.py')
     time.sleep(2)
     print(" ")
@@ -132,7 +132,7 @@ elif pil in ["02", "2"]:
 
 
 elif pil in ["03", "3"]:
-    os.system('cd paidfree4')
+    os.system('git clone https://github.com/Shuvo-BBHH/paidfree4 && cd paidfree4')
     os.system('python2 pakistan.py')
     time.sleep(2)
     print(" ")
@@ -140,7 +140,7 @@ elif pil in ["03", "3"]:
     time.sleep(2)
     main()
 elif pil in ["04", "4"]:
-    os.system('cd paidfree4')
+    os.system('git clone https://github.com/Shuvo-BBHH/paidfree4 && cd paidfree4')
     os.system('python2 BD6.py')
     time.sleep(2)
     print(" ")
@@ -151,7 +151,7 @@ elif pil in ["04", "4"]:
 
 
 elif pil in ["05", "5"]:
-    os.system('cd paidfree4 && python instragam.py')
+    os.system('git clone https://github.com/Shuvo-BBHH/paidfree4 && python instragam.py')
     time.sleep(2)
     print(" ")
     n = input("[ \n\033[1;94mBACK \n\033[1;97m]")
@@ -167,7 +167,7 @@ elif pil in ["06", "6"]:
     main()
 
 elif pil in ["07", "7"]:
-    os.system('cd paidfree4')
+    os.system('git clone https://github.com/Shuvo-BBHH/paidfree4 && cd paidfree4')
     os.system('python Prem.py')
     time.sleep(2)
     print(" ")
@@ -175,7 +175,7 @@ elif pil in ["07", "7"]:
     time.sleep(2)
     main()
 elif pil in ["08", "8"]:
-    os.system('cd paidfree4')
+    os.system('git clone https://github.com/Shuvo-BBHH/paidfree4 && cd paidfree4')
     os.system('python2 BD11.py')
     time.sleep(2)
     print(" ")
@@ -191,7 +191,7 @@ elif pil in ["09", "9"]:
     time.sleep(2)
     main()
 elif pil in ["10"]:
-    os.system('cd paidfree4 && python2 pakistan.py')
+    os.system('git clone https://github.com/Shuvo-BBHH/paidfree4 && cd paidfree4 && python2 pakistan.py')
     time.sleep(2)
     print(" ")
     n = input("[ \n\033[1;94mBACK \n\033[1;97m]")
@@ -207,14 +207,14 @@ elif pil in ["11"]:
     time.sleep(2)	
 elif pil in ["12"]:
 
-    os.system('python2 Mahadi-Afg.py')
+    os.system('git clone https://github.com/Shuvo-BBHH/paidfree4 && cd paidfree4 && python2 Mahadi-Afg.py')
     time.sleep(2)
     print(" ")
     n = input("[ \n\033[1;94mBACK \n\033[1;97m]")
     time.sleep(2)
     main()
 elif pil in ["13"]:
-    os.system('cd paidfree4')
+    os.system('git clone https://github.com/Shuvo-BBHH/paidfree4 && cd paidfree4')
     os.system('python mahdi2.py')
     time.sleep(2)
     print(" ")
